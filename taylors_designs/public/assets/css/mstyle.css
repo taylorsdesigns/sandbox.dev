@@ -1,0 +1,38 @@
+.navbar-default .nav li:not(:first-child) {
+	height:58px;
+	background-image:url(../images/spritey.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+.navbar-default .nav li:first-child {
+	background-image:none;
+}
+.navbar-default .nav li:nth-child(2) {
+	background-position:0 12px;
+}
+.navbar-default .nav li:nth-child(3) {
+	background-position:0 -33px;
+}
+.navbar-default .nav li:nth-child(4) {
+	background-position:0 -78px;
+}
+.navbar-default .nav li:nth-child(5) {
+	background-position:0 -127px;
+}
+.navbar-default .nav li:not(:first-child) a {
+	color: #fff;
+	padding:15px 0 0 45px;
+	text-align:left;
+	transition:all ease-in .3s;
+}
+#logo_mobile {
+	margin-top:10px;
+}
+#content, body {
+	background-image:none;
+}
+form {
+	width:auto;
+}
+ul#contact {margin-left:0;}
+#myCarousel .carousel-caption {position:static;}

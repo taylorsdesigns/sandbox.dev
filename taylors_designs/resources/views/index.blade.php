@@ -1,95 +1,31 @@
-<!doctype html>
-<html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('master')
 
-        <title>Laravel</title>
+@section('title', 'Home')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+@section('content')
+    <div class="row">
+    	<div class="col-sm-12"><h1>
+			{!! $newstr !!}
+		</h1></div>
+    </div>
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+ <div id="content" class="col-sm-12">
+  <div class="row">
+    <div class="col-sm-4"><img src="images/me.jpg" alt="An image of me" class="me img-responsive" /></div>
+    <div class="col-md-4">
+      <h2>A Little About Me</h2>
+      <p>I'm am currently <?php echo date('m-d') < date("11-14") ? date('Y') - date("1994") - 1 : date('Y') - date("1994"); ?> years young. I am pursuing a computer science degree at Arizona State University. In my free time I love to code various software! Although web development is my strongest area, I do dapple around in languages such as C# and Java.</p>
+<p>
+However, coding is not my entire life. I love freestyle bmx! I've been riding since I was 15 years old. Everyone has a passion, and mine is riding my bicycle. </p>
+    </div>
+    <div class="col-md-4">
+      <h3>SkillsUSA</h3>
+      <p>In 2013, I attended the SkillsUSA state competition for Arizona. My partner and I took on twelve different teams in the web design competition. We won the gold medal and the right to represent Arizona at the national level later that year. We trained for hours a day before we competed. Our hard work paid off as we were awarded the gold medal for the SkillsUSA national web design competition.</p>
+    <p>The same year, I also competed in Job Skill <abbr title="Demostration">Demo</abbr>, a competition that has you demostration any skill that is not related to your other competition. I choose to demostrate my skill in video game development. I developed a simple game, Pong, in C#. Then I demostrated how I could improve upon the game by adding bells and whisles to the game. Out of nine competitors, I earned the gold medal. However, the national competition only allows one competition per person. So I chose to stick by my partners side, and compete for web design.</p>
+    </div>
+  </div>
+  <div class="row">
+  	<div class="col-sm-12"><img src="images/news.png" alt="News Paper Artical" class="news img-responsive"></div>
+  </div>
+</div>
+@endsection
