@@ -11,7 +11,7 @@
 
  <div id="content" class="col-sm-12">
   <div class="row">
-    <div class="col-sm-4"><img src="images/me.jpg" alt="An image of me" class="me img-responsive" /></div>
+    <div class="col-sm-4"><img src="/assets/images/me.jpg" alt="An image of me" class="me img-responsive" /></div>
     <div class="col-md-4">
       <h2>A Little About Me</h2>
       <p>I'm am currently <?php echo date('m-d') < date("11-14") ? date('Y') - date("1994") - 1 : date('Y') - date("1994"); ?> years young. I am pursuing a computer science degree at Arizona State University. In my free time I love to code various software! Although web development is my strongest area, I do dapple around in languages such as C# and Java.</p>
@@ -25,7 +25,7 @@ However, coding is not my entire life. I love freestyle bmx! I've been riding si
     </div>
   </div>
   <div class="row">
-  	<div class="col-sm-12"><img src="images/news.png" alt="News Paper Artical" class="news img-responsive"></div>
+  	<div class="col-sm-12"><img src="assets/images/news.png" alt="News Paper Artical" class="news img-responsive"></div>
   </div>
 </div>
 @endsection

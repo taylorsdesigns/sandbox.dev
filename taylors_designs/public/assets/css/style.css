@@ -100,6 +100,7 @@ h1, h1 > * {
 	font-family:walkway;
 	text-align:center;
 	font-size:3rem;
+	text-transform: capitalize;
 }
 h1 span {
 	color:#c00;
