@@ -1,0 +1,215 @@
+* {
+	color: #fff;
+	font-family: "Myriad Pro";
+}
+@font-face {
+	font-family:walkway;
+	src:url("../assets/fonts/Walkway_SemiBold.woff");
+}
+html {
+	font-size:16px;
+}
+body {
+	background: url("../assets/images/ink.png") bottom right no-repeat, url("../assets/images/bg.png") center top repeat;
+}
+::selection {
+	background-color:#c00;
+}
+::-ms-selection {
+background-color:#c00;
+}
+::-moz-selection {
+background-color:#c00;
+}
+::-webkit-selection {
+background-color:#c00;
+}
+::-o-selection {
+background-color:#c00;
+}
+span.red::selection {
+	background-color:#f3f3f3;
+}
+span.red::-ms-selection {
+background-color:#f3f3f3;
+}
+span.red::-moz-selection {
+background-color:#f3f3f3;
+}
+span.red::-webkit-selection {
+background-color:#f3f3f3;
+}
+span.red::-o-selection {
+background-color:#f3f3f3;
+}
+/*Nav Styles*/
+body, .navbar-default {
+	background-color: #444;
+}
+.navbar-default {
+	border:none;
+	padding:10px 10px 0 10px;
+}
+@media screen and (min-width: 720px) {
+.navbar-default .nav li:not(:first-child) {
+	height:58px;
+	background-image:url(../assets/images/spritey.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+.navbar-default .nav li:first-child {
+	background-image:none;
+}
+.navbar-default .nav li:nth-child(2) {
+	background-position:center 12px;
+}
+.navbar-default .nav li:nth-child(3) {
+	background-position:center -33px;
+}
+.navbar-default .nav li:nth-child(4) {
+	background-position:center -78px;
+}
+.navbar-default .nav li:nth-child(5) {
+	background-position:center -127px;
+}
+.navbar-default .nav li:not(:first-child) a {
+	color: #fff;
+	padding:55px 0 0 0;
+	text-align:center;
+	transition:all ease-in .3s;
+}
+.navbar-default .nav li:not(:first-child) a:hover {
+	padding-top:40px;
+}
+#logo_mobile {
+	margin-top:10px;
+}
+ul.nav {
+	border-bottom:2px #777 dashed;
+}
+}
+/*End Nav Styles*/
+banner {
+	padding:0;
+	margin:0;
+}
+h1 {
+	margin-bottom:35px;
+}
+h1, h1 > *, h1 * {
+	font-family:walkway;
+	text-align:center;
+	font-size:3rem;
+	text-transform: capitalize;
+}
+h1 * span.lowercase {
+	text-transform: lowercase;
+}
+h1 span {
+	color:#c00;
+}
+#content {
+	min-height:300px;
+	background-color:#676767;
+	padding-bottom:10px;
+	background-image:url(../assets/images/td.png);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+}
+h2:before, h3:before {
+	content:"// ";
+}
+h2, h3 {
+	font-family:walkway;
+}
+div#content p {
+	text-align: justify;
+	margin: 3px auto;
+}
+img.me {
+	margin:20px 0;
+}
+img.news {
+	margin:0 auto;
+	display:block;
+}
+.resume {
+	margin-top:10px;
+}
+/*Form Styles*/
+form {
+	width: 300px;
+}
+div.input {
+	float: left;
+	height: 70px;
+	width: 200px;
+}
+div.input_long {
+	padding: 10px 0;
+}
+textarea {
+	resize: vertical;
+}
+label, input, textarea {
+	float: left;
+}
+input, textarea {
+	-webkit-transition: all ease-in .2s;
+	-moz-transition: all ease-in .2s;
+	-ms-transition: all ease-in .2s;
+	-o-transition: all ease-in .2s;
+	transition: all ease-in .2s;
+}
+input, textarea, div.input_long {
+	width: 100%;
+	float: left;
+}
+select {
+	width: 180px;
+	margin-left: 20px;
+}
+input, textarea {
+	color: #444;
+}
+input[name=submit] {
+	float: right;
+	margin-top: 25px;
+	width: auto;
+}
+/*End Form*/
+ul#contact {
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	margin: 15px;
+	margin-right: 0;
+	width: 100%;
+	list-style-type:none;
+}
+ul#contact li {
+	float: left;
+}
+ul#contact li:not(:first-child) {
+	margin-top: 10px;
+}
+ul#contact img {
+	margin-right: 10px;
+	margin-top: -5px;
+}
+#myCarousel {
+	padding:10px;
+}
+#myCarousel .carousel-caption {
+	background-color:#000;
+	right:0;
+	left:0;
+	opacity:.8;
+	bottom:0;
+}
+#myCarousel .carousel-caption p {
+	text-align:center;
+}
+.carousel-indicators {
+	bottom:0;
+}

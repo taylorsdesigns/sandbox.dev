@@ -14,7 +14,8 @@
 		<div class="col-md-4"><img src="assets/images/contact.png" alt="Vibrant Shadows Artwork" class="img-responsive center-block"/>
 		</div>
 		<div class="col-md-4">
-			<form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" name="myForm" onSubmit="return validate()">
+			<form method="post" action="/contact" name="myForm" onSubmit="return validate()">
+				{{csrf_field()}}
 				<div class="input_long">
 					<label for="fname">Full Name</label>
 					<br/>

@@ -1,0 +1,21 @@
+{
+  "name": "sf_sandbox",
+  "version": "1.0.0",
+  "description": "dev",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodepackage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylorsdesigns/sandbox.dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylorsdesigns/sandbox.dev/issues"
+  },
+  "homepage": "https://github.com/taylorsdesigns/sandbox.dev#readme"
+}
