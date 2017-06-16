@@ -20,7 +20,7 @@ However, coding is not my entire life. I love freestyle bmx! I've been riding si
     </div>
     <div class="col-md-4">
       <h3>SkillsUSA</h3>
-      <p>In 2013, I attended the SkillsUSA state competition for Arizona. My partner and I took on twelve different teams in the web design competition. We won the gold medal and the right to represent Arizona at the national level later that year. We trained for hours a day before we competed. Our hard work paid off as we were awarded the gold medal for the SkillsUSA national web design competition.</p>
+      <p>In 2013, I attended the SkillsUSA dstate competition for Arizona. My partner and I took on twelve different teams in the web design competition. We won the gold medal and the right to represent Arizona at the national level later that year. We trained for hours a day before we competed. Our hard work paid off as we were awarded the gold medal for the SkillsUSA national web design competition.</p>
     <p>The same year, I also competed in Job Skill <abbr title="Demostration">Demo</abbr>, a competition that has you demostration any skill that is not related to your other competition. I choose to demostrate my skill in video game development. I developed a simple game, Pong, in C#. Then I demostrated how I could improve upon the game by adding bells and whisles to the game. Out of nine competitors, I earned the gold medal. However, the national competition only allows one competition per person. So I chose to stick by my partners side, and compete for web design.</p>
     </div>
   </div>
